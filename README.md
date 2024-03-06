@@ -85,4 +85,5 @@ Você pode utilizar qualquer cliente RESTful de sua preferência. A seguir, est�
 
 ### Apagar Benficiário
 <img src="https://github.com/felipevitorino/ekantest/assets/8423063/9527a656-cafa-4f11-bed2-1cc83430ee54">
+
  - DELETE **URL:** [http://localhost:8080/documentos/beneficiario/1](http://localhost:8080/beneficiario/1)
