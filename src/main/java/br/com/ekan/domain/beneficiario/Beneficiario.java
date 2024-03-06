@@ -16,7 +16,6 @@ import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
-import lombok.Getter;
 
 @Entity
 @Table(name = "beneficiario")
@@ -34,7 +33,7 @@ public class Beneficiario {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Getter private Long id;
+	private Long id;
 	private String nome;
 	private String telefone;
 	private LocalDate dataNascimento;
